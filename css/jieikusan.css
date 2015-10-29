@@ -1,0 +1,84 @@
+#jieikusan * {
+  position: absolute; }
+
+#jieikusan {
+  position: relative;
+  margin-left: 420px; }
+  #jieikusan .head .hawk .ferruginous {
+    width: 20px;
+    left: 129px;
+    top: 101px;
+    height: 0px;
+    border-top: 24px solid #da394b;
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent; }
+  #jieikusan .head .hawk .sharp-shinned {
+    background-color: #da394b;
+    width: 48px;
+    left: 129px;
+    top: 21px;
+    height: 88px;
+    border-radius: 10px; }
+  #jieikusan .head .face {
+    background-color: #ffe8d5;
+    width: 280px;
+    height: 284px;
+    border-radius: 200px;
+    left: 10px;
+    top: 40;
+    box-shadow: inset -10px 0 #fed4b2, inset 6px 0 #FFF6EE; }
+  #jieikusan .head .nosey {
+    width: 25px;
+    height: 32px;
+    background-color: #ffe8d5;
+    top: 214;
+    left: 152;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 50px;
+    box-shadow: inset -4px -2px 0px 0px #fed4b2; }
+  #jieikusan .head .eyeball {
+    top: 180px; }
+    #jieikusan .head .eyeball.eyeball-left {
+      left: 95px; }
+    #jieikusan .head .eyeball.eyeball-right {
+      left: 195px; }
+    #jieikusan .head .eyeball .eb1, #jieikusan .head .eyeball .eb2, #jieikusan .head .eyeball .eb3, #jieikusan .head .eyeball .eb4, #jieikusan .head .eyeball .eb5, #jieikusan .head .eyeball .eb6 {
+      width: 6px;
+      height: 6px; }
+    #jieikusan .head .eyeball .eb1 {
+      background-color: #FFF; }
+    #jieikusan .head .eyeball .eb2, #jieikusan .head .eyeball .eb3, #jieikusan .head .eyeball .eb4, #jieikusan .head .eyeball .eb5 {
+      background-color: #C8B094; }
+    #jieikusan .head .eyeball .eb2 {
+      left: 6; }
+    #jieikusan .head .eyeball .eb3 {
+      top: 6; }
+    #jieikusan .head .eyeball .eb4 {
+      left: 12;
+      top: 6; }
+    #jieikusan .head .eyeball .eb5 {
+      left: 6;
+      top: 12; }
+    #jieikusan .head .eyeball .eb6 {
+      background-color: #000;
+      left: 6;
+      top: 6; }
+  #jieikusan .shirt {
+    width: 120px;
+    height: 50px;
+    left: 90px;
+    top: 309px;
+    background-color: #220054;
+    box-shadow: inset -8px 0 #170038, inset 4px 0 #523084; }
+  #jieikusan .shorts {
+    width: 110px;
+    height: 30px;
+    left: 95px;
+    top: 359px;
+    background-image: url("../Universe.jpg");
+    background-position-x: 563px;
+    background-position-y: 359px;
+    background-size: 200px auto; }
+
+/*# sourceMappingURL=jieikusan.css.map */

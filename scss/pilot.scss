@@ -1,0 +1,202 @@
+#pilot * {
+  position: absolute;
+}
+
+#pilot {
+  position: relative;
+  margin-left: 420px;
+  .head {
+    .hair * {
+      background-color: #F9E34A;
+    }
+    .hair {
+      top: 15px;
+      left: 7px;
+      .hair-bob {
+        top: 130;
+        width: 286px;
+        height: 136px;
+        border-bottom-right-radius: 200px;
+        border-bottom-left-radius: 200px;
+        box-shadow: inset 6px 4px #FCF8B9, inset -10px 4px #E7CD1E;
+        z-index: -1;
+      }
+      .hair-blob {
+        width: 286px;
+        height: 136px;
+        border-top-right-radius: 200px;
+        border-top-left-radius: 200px;
+        box-shadow: inset 6px 4px #FCF8B9, inset -10px 4px #E7CD1E;
+      }
+      .bang1 {
+        top: 134px;
+        left: 96px;
+        width: 190px;
+        height: 20px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 6px;
+        box-shadow: inset -10px 0px #E7CD1E;
+      }
+      .bang2 {
+        top: 134px;
+        left: 0px;
+        width: 96px;
+        height: 20px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 6px;
+        box-shadow: inset 6px 0px #FCF8B9;
+      }
+    }
+
+    .hat {
+      text-align: center;
+      .oval {
+        width: 290px;
+        height: 80px;
+        border-radius: 145px / 40px;
+        background-color: #1C176E;
+      }
+
+      .trap {
+        top: 40;
+        width: 210px;
+        border-top: 40px solid #1C176E;
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+      }
+
+      .gold-bit {
+        top: 32px;
+        left: 31px;
+        width: 229px;
+        height: 66px;
+        border-radius: 132px / 45px;
+        background-color: transparent;
+        box-shadow: inset 0px -3px gold;
+        border-top: none;
+      }
+
+      .brim {
+        top: 80;
+        left: 40;
+        width: 210px;
+        height: 33px;
+        border-bottom-right-radius: 130px;
+        border-bottom-left-radius: 130px;
+        background-color: #000;
+      }
+    }
+
+    .face {
+      background-color: rgb(255, 232, 213);
+      width: 280px;
+      height: 200px;
+      border-bottom-right-radius: 200px;
+      border-bottom-left-radius: 200px;
+      left: 10px;
+      top: 124;
+      box-shadow: inset -10px 0 rgb(254, 212, 178), inset 6px 0 #FFF6EE;
+    }
+    .nosey {
+      width: 25px;
+      height: 32px;
+      background-color: rgb(255, 232, 213);
+      top: 214;
+      left: 152;
+      border-bottom-left-radius: 14px;
+      border-bottom-right-radius: 20px;
+      border-top-right-radius: 50px;
+      box-shadow: inset -4px -2px 0px 0px rgb(254, 212, 178);
+    }
+
+    .eyeball {
+      top: 180px;
+      &.eyeball-left {
+        left: 95px;
+      }
+      &.eyeball-right {
+        left: 195px;
+      }
+      .eb1, .eb2, .eb3, .eb4, .eb5, .eb6 {
+        width: 6px;
+        height: 6px;
+      }
+      .eb1 {
+        background-color: #FFF;
+      }
+      .eb2, .eb3, .eb4, .eb5 {
+        background-color: #B1D3FA;
+      }
+      .eb2 {
+        left: 6;
+      }
+      .eb3 {
+        top: 6;
+      }
+      .eb4 {
+        left: 12;
+        top: 6;
+      }
+      .eb5 {
+        left: 6;
+        top: 12;
+      }
+      .eb6 {
+        background-color: #000;
+        left: 6;
+        top: 6;
+      }
+    }
+  }
+  .shirt {
+      left: 90px;
+      top: 309px;
+    .jacket {
+      width: 120px;
+      height: 50px;
+      background-color: #1C176E;
+      box-shadow: inset -8px 0 #0B0845, inset 4px 0 #646198;
+    }
+
+    .shirt-triangle {
+      border-top: 24px solid #fff;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      left: 40px;
+      top: 10;
+    }
+
+    .tie {
+      top: 15;
+      left: 51;
+      .knot {
+        width: 10px;
+        border-top: 8px solid #000;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+      }
+
+      .rest {
+        width: 10px;
+        border-bottom: 8px solid #000;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+      }
+      .restrest {
+        top: 8;
+        left: -1;
+        border-top: 11px solid #000;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+      }
+    }
+  }
+  .shorts {
+    width: 110px;
+    height: 30px;
+    left: 95px;
+    top: 359px;
+    background-color: #1C176E;
+    box-shadow: inset -8px 0 #0B0845, inset 4px 0 #646198;
+  }
+}

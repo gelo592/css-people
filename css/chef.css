@@ -1,0 +1,207 @@
+#chef * {
+  position: absolute; }
+
+#chef {
+  position: relative; }
+  #chef .head {
+    top: 80px;
+    left: 160px; }
+    #chef .head .stache * {
+      background-color: #7B7570; }
+    #chef .head .burns {
+      top: 170; }
+    #chef .head .burn {
+      height: 36px;
+      border-bottom: 10px solid transparent; }
+    #chef .head .rburn {
+      border-right: 24px solid #7B7570;
+      left: 256; }
+    #chef .head .brows {
+      top: 200; }
+    #chef .head .brow {
+      border-bottom: 16px solid #7B7570;
+      border-left: 3px solid transparent;
+      border-right: 3px solid transparent;
+      height: 0; }
+    #chef .head .lbrow-l {
+      left: 55px;
+      width: 35px;
+      transform: rotate(-15deg); }
+    #chef .head .lbrow-r {
+      left: 87px;
+      width: 15px;
+      top: -4;
+      border-bottom: 17px solid #7B7570;
+      transform: rotate(4deg); }
+    #chef .head .rbrow-l {
+      left: 179px;
+      width: 15px;
+      top: -4;
+      border-bottom: 17px solid #7B7570;
+      transform: rotate(-4deg); }
+    #chef .head .rbrow-r {
+      left: 191px;
+      width: 35px;
+      transform: rotate(15deg); }
+    #chef .head .rburnlet {
+      top: 4px;
+      left: 246px;
+      width: 0;
+      height: 0;
+      border-top: 10px solid #7B7570;
+      border-left: 10px solid transparent; }
+    #chef .head .lburn {
+      border-left: 24px solid #7B7570; }
+    #chef .head .lburnlet {
+      top: 4px;
+      left: 24px;
+      width: 0;
+      height: 0;
+      border-top: 10px solid #7B7570;
+      border-right: 10px solid transparent; }
+    #chef .head .hat {
+      top: -40px; }
+      #chef .head .hat .hat-blob {
+        border-top: 160px solid #fff;
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        height: 0;
+        width: 200px;
+        top: 20;
+        left: 5;
+        background-color: #fff; }
+      #chef .head .hat .hat-band {
+        background-color: #fff;
+        width: 284px;
+        height: 44px;
+        top: 166px;
+        border-top: 2px solid #f1f1f1;
+        border-left: 4px solid #f1f1f1;
+        border-right: 4px solid #f1f1f1;
+        border-bottom: 2px solid #f1f1f1;
+        left: -6;
+        border-radius: 12px; }
+      #chef .head .hat .hattle {
+        width: 102px;
+        height: 102px;
+        brder: 1px solid #ccc;
+        border-radius: 51px;
+        background-color: #fff; }
+      #chef .head .hat .hattle1 {
+        left: -34;
+        top: 1;
+        box-shadow: inset 4px 3px 0 0px #f1f1f1, inset 3px -3px 0 0px #f1f1f1; }
+      #chef .head .hat .hattle2 {
+        left: 43;
+        top: -24;
+        box-shadow: inset 2px 4px #f1f1f1; }
+      #chef .head .hat .hattle3 {
+        left: 120;
+        top: -18;
+        box-shadow: inset -1px 4px #f1f1f1; }
+      #chef .head .hat .hattle4 {
+        left: 201;
+        top: 8;
+        box-shadow: inset -4px 3px 0 2px #f1f1f1, inset -3px -4px 0 0px #f1f1f1; }
+      #chef .head .hat .hattle5 {
+        left: 119;
+        top: 20;
+        box-shadow: inset 0px -5px #f1f1f1; }
+      #chef .head .hat .lhat-border {
+        height: 100px;
+        width: 90px;
+        top: 81px;
+        left: -66px;
+        border-right: 4px solid #f1f1f1;
+        border-top-right-radius: 56px;
+        border-bottom-right-radius: 40px;
+        background-color: rgba(241, 241, 241, 0); }
+      #chef .head .hat .rhat-border {
+        height: 100px;
+        width: 90px;
+        top: 81px;
+        left: 249px;
+        border-left: 4px solid #f1f1f1;
+        border-top-left-radius: 56px;
+        border-bottom-left-radius: 40px;
+        background-color: rgba(241, 241, 241, 0); }
+    #chef .head .face {
+      background-color: #ffe8d5;
+      width: 280px;
+      height: 200px;
+      border-bottom-right-radius: 200px;
+      border-bottom-left-radius: 200px;
+      top: 164;
+      box-shadow: inset -10px 0 #fed4b2, inset 6px 0 #FFF6EE; }
+    #chef .head .nosey {
+      width: 25px;
+      height: 32px;
+      background-color: #ffe8d5;
+      top: 254;
+      left: 142;
+      border-bottom-left-radius: 14px;
+      border-bottom-right-radius: 20px;
+      border-top-right-radius: 50px;
+      box-shadow: inset -4px -2px 0px 0px #fed4b2; }
+    #chef .head .eyeball {
+      top: 220; }
+      #chef .head .eyeball.eyeball-left {
+        left: 85; }
+      #chef .head .eyeball.eyeball-right {
+        left: 185; }
+      #chef .head .eyeball .eb1, #chef .head .eyeball .eb2, #chef .head .eyeball .eb3, #chef .head .eyeball .eb4, #chef .head .eyeball .eb5, #chef .head .eyeball .eb6 {
+        width: 6px;
+        height: 6px; }
+      #chef .head .eyeball .eb1 {
+        background-color: #FFF; }
+      #chef .head .eyeball .eb2, #chef .head .eyeball .eb3, #chef .head .eyeball .eb4, #chef .head .eyeball .eb5 {
+        background-color: #ABD075; }
+      #chef .head .eyeball .eb2 {
+        left: 6; }
+      #chef .head .eyeball .eb3 {
+        top: 6; }
+      #chef .head .eyeball .eb4 {
+        left: 12;
+        top: 6; }
+      #chef .head .eyeball .eb5 {
+        left: 6;
+        top: 12; }
+      #chef .head .eyeball .eb6 {
+        background-color: #000;
+        left: 6;
+        top: 6; }
+    #chef .head .stache {
+      border-bottom: 16px solid #7B7570;
+      border-left: 3px solid transparent;
+      border-right: 3px solid transparent;
+      height: 0;
+      width: 62px;
+      top: 290;
+      left: 110px; }
+    #chef .head .mouth {
+      opacity: 0;
+      width: 10px;
+      height: 10px;
+      border-bottom-right-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-top-left-radius: 10px;
+      border: 2px solid #fed4b2;
+      top: 300;
+      left: 130; }
+  #chef .shirt {
+    width: 120px;
+    height: 50px;
+    left: 80px;
+    top: 349px;
+    background-color: #fff;
+    box-shadow: inset -8px 0 #ccc, inset 4px 0 #f1f1f1; }
+  #chef .shorts {
+    width: 110px;
+    height: 30px;
+    left: 85px;
+    top: 399px;
+    background-color: #662503;
+    box-shadow: inset -8px 0 #4C1B01, inset 4px 0 #7B310B; }
+
+/*# sourceMappingURL=chef.css.map */

@@ -1,0 +1,100 @@
+#rocket *{
+  position: absolute;
+}
+
+#rocket {
+  position: relative;
+
+  .rkt-body * {
+    background-color: rgb(194, 194, 194);
+  }
+  .rkt-body {
+    .rkt-body1 {
+      background-color: rgb(100, 202, 223);
+      width: 280px;
+      height: 220px
+    }
+    .rkt-body2 {
+      width: 280px;
+      height: 200px;
+      top: 221px;
+    }
+    .rkt-body3 {
+      width: 230px;
+      height: 200px;
+      top: 408px;
+      left: 25px;
+      transform: perspective(400px) rotateX(-45deg);
+    }
+    .rkt-body4 {
+
+    }
+    .rkt-body5 {
+
+    }
+    .rkt-body6 {
+
+    }
+  }
+
+  .lfin {
+    .lfin1 {
+
+    }
+    .lfin2 {
+
+    }
+  }
+
+  .rfin {
+    .rfin1 {
+
+    }
+    .rfin2 {
+
+    }
+  }
+
+  .window {
+    .win-in {
+
+    }
+    .win-out {
+
+    }
+  }
+
+  .antenna {
+    .ant1 {
+
+    }
+    .ant2 {
+
+    }
+    .ant3 {
+
+    }
+    .ant-bar {
+
+    }
+    .ant4 {
+
+    }
+  }
+
+  .flame {
+    .flame1 {
+
+    }
+    .flame2 {
+
+    }
+    .flame3 {
+
+    }
+    .flame4 {
+
+    }
+  }
+}
+

@@ -1,0 +1,23 @@
+#rocket * {
+  position: absolute; }
+
+#rocket {
+  position: relative; }
+  #rocket .rkt-body * {
+    background-color: #c2c2c2; }
+  #rocket .rkt-body .rkt-body1 {
+    background-color: #64cadf;
+    width: 280px;
+    height: 220px; }
+  #rocket .rkt-body .rkt-body2 {
+    width: 280px;
+    height: 200px;
+    top: 221px; }
+  #rocket .rkt-body .rkt-body3 {
+    width: 230px;
+    height: 200px;
+    top: 408px;
+    left: 25px;
+    transform: perspective(400px) rotateX(-45deg); }
+
+/*# sourceMappingURL=rocket-ship.css.map */

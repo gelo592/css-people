@@ -1,0 +1,110 @@
+#jieikusan * {
+  position: absolute;
+}
+
+#jieikusan {
+  position: relative;
+  margin-left: 420px;
+  .head {
+    .hawk * {
+    }
+
+    .hawk {
+      .ferruginous {
+        width: 20px;
+        left: 129px;
+        top: 101px;
+        height: 0px;
+        border-top: 24px solid rgb(218, 57, 75);
+        border-left: 14px solid transparent;
+        border-right: 14px solid transparent;
+      }
+      .sharp-shinned {
+        background-color: rgb(218, 57, 75);
+        width: 48px;
+        left: 129px;
+        top: 21px;
+        height: 88px;
+        border-radius: 10px;
+      }
+    }
+
+    .face {
+      background-color: rgb(255, 232, 213);
+      width: 280px;
+      height: 284px;
+      border-radius: 200px;
+      left: 10px;
+      top: 40;
+      box-shadow: inset -10px 0 rgb(254, 212, 178), inset 6px 0 #FFF6EE;
+    }
+    .nosey {
+      width: 25px;
+      height: 32px;
+      background-color: rgb(255, 232, 213);
+      top: 214;
+      left: 152;
+      border-bottom-left-radius: 14px;
+      border-bottom-right-radius: 20px;
+      border-top-right-radius: 50px;
+      box-shadow: inset -4px -2px 0px 0px rgb(254, 212, 178);
+    }
+
+    .eyeball {
+      top: 180px;
+      &.eyeball-left {
+        left: 95px;
+      }
+      &.eyeball-right {
+        left: 195px;
+      }
+      .eb1, .eb2, .eb3, .eb4, .eb5, .eb6 {
+        width: 6px;
+        height: 6px;
+      }
+      .eb1 {
+        background-color: #FFF;
+      }
+      .eb2, .eb3, .eb4, .eb5 {
+        background-color: #C8B094;
+      }
+      .eb2 {
+        left: 6;
+      }
+      .eb3 {
+        top: 6;
+      }
+      .eb4 {
+        left: 12;
+        top: 6;
+      }
+      .eb5 {
+        left: 6;
+        top: 12;
+      }
+      .eb6 {
+        background-color: #000;
+        left: 6;
+        top: 6;
+      }
+    }
+  }
+  .shirt {
+    width: 120px;
+    height: 50px;
+    left: 90px;
+    top: 309px;
+    background-color: #220054;
+    box-shadow: inset -8px 0 #170038, inset 4px 0 #523084;
+  }
+  .shorts {
+    width: 110px;
+    height: 30px;
+    left: 95px;
+    top: 359px;
+    background-image: url('../Universe.jpg');
+    background-position-x: 563px;
+    background-position-y: 359px;
+    background-size: 200px auto;
+  }
+}

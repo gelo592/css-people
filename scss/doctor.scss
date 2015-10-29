@@ -1,0 +1,253 @@
+#doc * {
+  position: absolute;
+}
+
+#doc {
+  position: relative;
+  .head {
+    .hair *, .stache * {
+      background-color: #C29873;
+    }
+    .hair {
+      .hair-blob1 {
+        width: 153px;
+        height: 115px;
+        left: -4;
+        border-top-right-radius: 200px;
+        border-top-left-radius: 255px;
+        box-shadow: inset 4px 4px #CFB198;
+        top: 37;
+      }
+      .hair-blob2 {
+        left: 48;
+        width: 240px;
+        height: 158px;
+        border-top-right-radius: 255px;
+        border-top-left-radius: 200px;
+        box-shadow: inset -8px 4px #A97D58;
+      }
+    }
+
+    .face {
+      background-color: rgb(255, 232, 213);
+      width: 280px;
+      height: 200px;
+      border-bottom-right-radius: 200px;
+      border-bottom-left-radius: 200px;
+      top: 124;
+      box-shadow: inset -10px 0 rgb(254, 212, 178), inset 6px 0 #FFF6EE;
+    }
+    .nosey {
+      width: 25px;
+      height: 32px;
+      background-color: rgb(255, 232, 213);
+      top: 214;
+      left: 142;
+      border-bottom-left-radius: 14px;
+      border-bottom-right-radius: 20px;
+      border-top-right-radius: 50px;
+      box-shadow: inset -4px -2px 0px 0px rgb(254, 212, 178);
+    }
+
+    .eyeball {
+      top: 180;
+      &.eyeball-left {
+        left: 85;
+      }
+      &.eyeball-right {
+        left: 185;
+      }
+      .eb1, .eb2, .eb3, .eb4, .eb5, .eb6 {
+        width: 6px;
+        height: 6px;
+      }
+      .eb1 {
+        background-color: #FFF;
+      }
+      .eb2, .eb3, .eb4, .eb5 {
+        background-color: #11C09F;
+      }
+      .eb2 {
+        left: 6;
+      }
+      .eb3 {
+        top: 6;
+      }
+      .eb4 {
+        left: 12;
+        top: 6;
+      }
+      .eb5 {
+        left: 6;
+        top: 12;
+      }
+      .eb6 {
+        background-color: #000;
+        left: 6;
+        top: 6;
+      }
+    }
+    /*.stache {
+      border-bottom: 10px solid #C29873;
+      border-left: 14px solid transparent;
+      border-right: 14px solid transparent;
+      height: 0;
+      width: 32px;
+      top: 250;
+      left: 119px;
+    }*/
+    .stache {
+      top: 250;
+      left: 119;
+    }
+
+    .handle {
+      height: 14px;
+      width: 60px;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+
+    }
+
+    .bar {
+      height: 20px;
+      width: 12px;
+    }
+
+    .lbar {
+      border-top-left-radius: 5px;
+    }
+
+    .rbar {
+      left: 48;
+      border-top-right-radius: 5px;
+    }
+
+    .mouth {
+      opacity: 0;
+      width: 10px;
+      height: 10px;
+      border-bottom-right-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-top-left-radius: 10px;
+      border: 2px solid rgb(254, 212, 178);
+      top: 260;
+      left: 130;
+    }
+  }
+
+  .shirt {
+    width: 120px;
+    height: 50px;
+    left: 80px;
+    top: 309px;
+    background-color: #fff;
+    box-shadow: inset -8px 0 #ccc, inset 4px 0 #f1f1f1;
+  }
+
+  .shorts {
+    width: 110px;
+    height: 30px;
+    left: 85px;
+    top: 359px;
+    background-color: #848484;
+    box-shadow: inset -8px 0 #6c6c6c, inset 4px 0 #ccc;
+  }
+
+  .stethoscope * {
+    background-color: #2013F1;
+  }
+
+  .stethoscope {
+    top: 324px;
+    left: 88px;
+
+    .righty {
+      left: 66px;
+    }
+
+    .cord {
+      width: 4px;
+      height: 20px;
+      top: -16px;
+    }
+
+    .rcord {
+      left: 28px;
+    }
+
+    .neck-circle1 {
+      left: 10px;
+      width: 50px;
+      height: 54px;
+      background-color: transparent;
+      box-shadow: inset -4px 2px #2013F1;
+      border-radius: 25px;
+    }
+
+    .neck-circle2 {
+      width: 50px;
+      height: 54px;
+      background-color: transparent;
+      box-shadow: inset 4px 2px #2013F1;
+      border-radius: 25px;
+    }
+
+    .bud {
+      width: 10px;
+      height: 8px;
+      border-radius: 4px;
+      border-color: #ccc;
+      background-color: #444;
+      left: 8px;
+      top: 48px;
+    }
+
+    .r-bud {
+      transform: rotate(45deg);
+    }
+
+    .l-bud {
+      transform: rotate(-45deg);
+      left: 42px;
+    }
+
+    .connector-bar {
+      left: 17px;
+      top: 1px;
+      width: 26px;
+      height: 4px;
+    }
+
+    .lcord {
+      border-bottom: solid 2px #ccc;
+    }
+
+    .steth-circ1 {
+      left: -13px;
+      width: 30px;
+      height: 30px;
+      border-radius: 15px;
+      background-color: #ccc;
+    }
+
+    .steth-circ2 {
+      left: -8px;
+      top: 5px;
+      width: 20px;
+      height: 20px;
+      border-radius: 10px;
+      background-color: #fff;
+    }
+
+    .steth-circ3 {
+      left: -6px;
+      top: 7px;
+      width: 16px;
+      height: 16px;
+      border-radius: 8px;
+      background-color: #ccc;
+    }
+  }
+}

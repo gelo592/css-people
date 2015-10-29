@@ -1,0 +1,506 @@
+#risa * {
+  position: absolute; }
+
+#risa {
+  position: relative;
+  margin-left: 420px; }
+  #risa .head .hair .curl1 {
+    left: -11px;
+    top: 128px;
+    transform: rotate(21deg) scaleX(-1);
+    height: 46px;
+    width: 19px;
+    border-left: 17px solid #1091A8;
+    border-bottom-left-radius: 40px; }
+  #risa .head .hair .curl2 {
+    left: -9px;
+    top: 151px;
+    transform: rotate(21deg) scaleX(-1);
+    height: 46px;
+    width: 19px;
+    border-left: 17px solid #1091A8;
+    border-bottom-left-radius: 40px; }
+  #risa .head .hair .curl3 {
+    left: 11px;
+    top: 174px;
+    transform: rotate(24deg) scaleX(-1);
+    height: 24px;
+    width: 11px;
+    border-bottom-left-radius: 32px;
+    background-color: transparent;
+    border-left: 8px solid #E75B85; }
+  #risa .head .hair .curl4 {
+    left: 16px;
+    top: 209px;
+    transform: rotate(11deg) scaleX(-1);
+    height: 32px;
+    width: 11px;
+    border-bottom-left-radius: 32px;
+    background-color: transparent;
+    border-left: 18px solid #000000; }
+  #risa .head .hair .curl5 {
+    left: 34px;
+    top: 223px;
+    transform: rotate(40deg) scaleX(1);
+    height: 20px;
+    width: 11px;
+    border-bottom-left-radius: 32px;
+    background-color: transparent;
+    border-left: 8px solid #000000; }
+  #risa .head .hair .curl6 {
+    left: -26px;
+    top: 210px;
+    transform: rotate(71deg) scaleX(1);
+    height: 47px;
+    width: 68px;
+    border-bottom-left-radius: 66px;
+    background-color: transparent;
+    border-left: 34px solid #000000; }
+  #risa .head .hair .curl7 {
+    left: 116px;
+    top: 145px;
+    transform: rotate(21deg) scaleX(-1);
+    height: 37px;
+    width: 14px;
+    border-bottom-left-radius: 43px;
+    background-color: transparent;
+    border-left: 25px solid #E75B85; }
+  #risa .head .hair .curl8 {
+    left: 87px;
+    top: 148px;
+    transform: rotate(39deg) scaleY(-1);
+    height: 37px;
+    width: 24px;
+    border-bottom-left-radius: 40px;
+    background-color: transparent;
+    border-left: 9px solid #000000; }
+  #risa .head .hair .curl11 {
+    left: 102px;
+    top: 145px;
+    transform: rotate(27deg) scale(-1);
+    height: 11px;
+    width: 21px;
+    border-left: 9px solid #000000;
+    border-bottom-left-radius: 25px; }
+  #risa .head .hair .curl12 {
+    left: 244px;
+    top: 160px;
+    transform: rotate(-49deg) scaleX(-1);
+    height: 26px;
+    width: 19px;
+    border-left: 17px solid #E75B85;
+    border-bottom-left-radius: 40px; }
+  #risa .head .hair .curl13 {
+    left: 277px;
+    top: 161px;
+    transform: rotate(-26deg) scaleX(1);
+    height: 29px;
+    width: 11px;
+    border-bottom-left-radius: 32px;
+    background-color: transparent;
+    border-left: 16px solid #E75B85; }
+  #risa .head .hair .curl14 {
+    left: 163px;
+    top: 138px;
+    transform: rotate(47deg) scaleX(1);
+    height: 32px;
+    width: 11px;
+    border-bottom-left-radius: 32px;
+    background-color: transparent;
+    border-left: 18px solid #E75B85; }
+  #risa .head .hair .curl15 {
+    left: 51px;
+    top: 206px;
+    transform: rotate(23deg) scaleX(1);
+    height: 20px;
+    width: 11px;
+    border-bottom-left-radius: 32px;
+    background-color: transparent;
+    border-left: 8px solid #000000; }
+  #risa .head .hair .curl16 {
+    left: 30px;
+    top: 145px;
+    transform: rotate(64deg) scaleX(1);
+    height: 61px;
+    width: 85px;
+    border-bottom-left-radius: 66px;
+    background-color: transparent;
+    border-left: 34px solid #E75B85; }
+  #risa .head .hair .curl10 {
+    left: 89px;
+    top: 122px;
+    transform: rotate(-16deg) scaleX(-1);
+    height: 48px;
+    width: 19px;
+    border-bottom-left-radius: 43px;
+    background-color: transparent;
+    border-left: 23px solid #E75B85; }
+  #risa .head .hair .curl9 {
+    left: 87px;
+    top: 148px;
+    transform: rotate(39deg) scaleY(-1);
+    height: 37px;
+    width: 24px;
+    border-bottom-left-radius: 40px;
+    background-color: transparent;
+    border-left: 9px solid #000000; }
+  #risa .head .hair .curl18 {
+    left: 72px;
+    top: 63px;
+    transform: rotate(29deg) scaleX(-1);
+    height: 32px;
+    width: 11px;
+    border-bottom-left-radius: 32px;
+    background-color: transparent;
+    border-left: 18px solid #000000; }
+  #risa .head .hair .curl17 {
+    left: 39px;
+    top: 84px;
+    transform: rotate(45deg) scaleX(1);
+    height: 61px;
+    width: 85px;
+    border-bottom-left-radius: 66px;
+    background-color: transparent;
+    border-left: 34px solid #1091A8; }
+  #risa .head .hair .curl20 {
+    left: 167px;
+    top: 71px;
+    transform: rotate(60deg) scaleX(1);
+    height: 48px;
+    width: 20px;
+    border-bottom-left-radius: 43px;
+    background-color: transparent;
+    border-left: 35px solid #000000; }
+  #risa .head .hair .curl19 {
+    left: 272px;
+    top: 128px;
+    transform: rotate(-4deg) scaleX(1);
+    height: 29px;
+    width: 11px;
+    border-bottom-left-radius: 32px;
+    background-color: transparent;
+    border-left: 16px solid #E75B85; }
+  #risa .head .hair .curl21 {
+    left: 227px;
+    top: 93px;
+    transform: rotate(-52deg) scaleX(-1);
+    height: 48px;
+    width: 14px;
+    border-bottom-left-radius: 43px;
+    background-color: transparent;
+    border-left: 22px solid #000000; }
+  #risa .head .hair .curl22 {
+    left: 96px;
+    top: 64px;
+    transform: rotate(10deg) scaleX(-1);
+    height: 48px;
+    width: 20px;
+    border-bottom-left-radius: 43px;
+    background-color: transparent;
+    border-left: 35px solid #000000; }
+  #risa .head .hair .curl23 {
+    left: 196px;
+    top: 151px;
+    transform: rotate(-61deg) scaleX(-1);
+    height: 49px;
+    width: 20px;
+    border-bottom-left-radius: 43px;
+    background-color: transparent;
+    border-left: 19px solid #FFE8D5; }
+  #risa .head .hair .curl24 {
+    left: 207px;
+    top: 148px;
+    transform: rotate(-41deg) scaleX(-1);
+    height: 31px;
+    width: 20px;
+    border-bottom-left-radius: 43px;
+    background-color: transparent;
+    border-left: 23px solid #E75B85;
+    box-shadow: 2px 22px #FFE8D5; }
+  #risa .head .hair .curl25 {
+    left: 64px;
+    top: 45px;
+    transform: rotate(61deg) scaleX(1);
+    height: 60px;
+    width: 16px;
+    border-bottom-left-radius: 43px;
+    background-color: transparent;
+    border-left: 23px solid rgba(203, 150, 239, 0.49); }
+  #risa .head .hair .curl26 {
+    left: 131px;
+    top: 75px;
+    transform: rotate(14deg) scaleX(-1);
+    height: 46px;
+    width: 16px;
+    border-bottom-left-radius: 43px;
+    background-color: transparent;
+    border-left: 23px solid #ec8495; }
+  #risa .head .hair .curl27 {
+    left: 197px;
+    top: 92px;
+    transform: rotate(-51deg) scaleX(-1);
+    height: 46px;
+    width: 34px;
+    border-bottom-left-radius: 43px;
+    background-color: transparent;
+    border-left: 12px solid #ec8495; }
+  #risa .head .hair .curl28 {
+    left: 189px;
+    top: 95px;
+    transform: rotate(36deg) scaleX(1);
+    height: 46px;
+    width: 16px;
+    border-bottom-left-radius: 43px;
+    background-color: transparent;
+    border-left: 16px solid #ec8495; }
+  #risa .head .hair .black-top {
+    width: 155px;
+    height: 71px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    background-color: black;
+    transform: rotate(25deg) rotateX(52deg);
+    left: 135px;
+    top: 36px; }
+    #risa .head .hair .black-top .after {
+      border-bottom: 37px solid #000;
+      border-right: 25px solid transparent;
+      height: 0;
+      width: 5px;
+      top: 34px;
+      right: -15px; }
+    #risa .head .hair .black-top .before {
+      border-bottom: 57px solid #000;
+      border-left: 69px solid transparent;
+      height: 0;
+      width: 12px;
+      top: 10px;
+      left: -34px; }
+  #risa .head .hair .black-blob {
+    background-color: #000000;
+    width: 106px;
+    height: 72px;
+    left: 3px;
+    top: 120px;
+    transform: rotate(-53deg) skew(-33deg); }
+  #risa .head .hair .blau {
+    top: 40px;
+    left: 10px;
+    width: 280px;
+    height: 119px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    background-color: #1091a8; }
+  #risa .head .hair .blau-cover {
+    width: 21px;
+    height: 52px;
+    top: 120px;
+    left: 23px;
+    transform: rotate(62deg) skew(33deg);
+    background-color: #1091a8;
+    box-shadow: 10px 0px #E75B85, -5px 0px #1091a8; }
+  #risa .head .hair .poiple {
+    top: 58px;
+    left: 47px;
+    box-shadow: -9px -3px #610099; }
+  #risa .head .hair .punk {
+    top: 79px;
+    left: 36px;
+    width: 108px;
+    border-right: 42px solid transparent;
+    border-left: 45px solid transparent;
+    border-bottom: 80px solid #E75B85; }
+  #risa .head .hair .blonk {
+    top: 119;
+    left: 46px;
+    border-right: 40px solid transparent;
+    border-left: 40px solid transparent;
+    border-bottom: 40px solid #000; }
+  #risa .head .hair .blanko {
+    left: 83px;
+    top: 42px;
+    border-right: 91px solid transparent;
+    border-left: 20px solid transparent;
+    border-bottom: 37px solid #000; }
+  #risa .head .hair .negro {
+    left: 119px;
+    top: 79px;
+    border-right: 48px solid transparent;
+    border-left: 14px solid transparent;
+    border-top: 25px solid #000000; }
+  #risa .head .hair .noir {
+    left: 182px;
+    top: 94px;
+    border-right: 47px solid #000000;
+    border-left: 29px solid transparent;
+    border-bottom: 42px solid transparent; }
+  #risa .head .hair .rose {
+    left: 174px;
+    top: 145px;
+    border-right: 33px solid transparent;
+    border-left: 43px solid transparent;
+    border-bottom: 26px solid #e75b85;
+    transform: rotate(25deg) scale(-1); }
+  #risa .head .hair .rot {
+    left: 188px;
+    top: 83px;
+    border-left: 101px solid #E75B85;
+    border-top: 49px solid rgba(91, 119, 231, 0);
+    height: 27px; }
+  #risa .head .hair .pernk {
+    left: 116px;
+    top: 147px;
+    border-right: 26px solid transparent;
+    border-left: 47px solid transparent;
+    border-bottom: 26px solid #e75b85;
+    transform: rotate(-3deg) scale(-1); }
+  #risa .head .hair .plonk {
+    left: 243px;
+    top: 158px;
+    border-left: 47px solid transparent;
+    border-top: 26px solid #e75b85; }
+  #risa .head .hair .skin {
+    left: 140px;
+    top: 146px;
+    border-right: 10px solid transparent;
+    border-left: 52px solid transparent;
+    border-bottom: 26px solid #ffe8d5;
+    transform: rotate(-3deg); }
+  #risa .head .hair .black {
+    left: 165px;
+    top: 81px;
+    border-left: 22px solid transparent;
+    border-right: 22px solid transparent;
+    border-top: 31px solid #000000;
+    transform: rotate(34deg); }
+  #risa .head .hair .edge {
+    width: 7px;
+    height: 52px;
+    transform: skewY(29deg) rotate(-4deg);
+    background-color: #e75b85;
+    left: 283px;
+    top: 130px; }
+  #risa .head .glasses {
+    top: 175; }
+  #risa .head .rlens {
+    width: 50px;
+    height: 30px;
+    background: #ffe8d5;
+    top: -74;
+    left: 176;
+    z-index: 2; }
+  #risa .head .rframe {
+    left: 175px;
+    top: -22;
+    width: 54px;
+    height: 34px;
+    background: #000;
+    z-index: 1; }
+  #risa .head .llens {
+    background: #ffe8d5;
+    width: 50px;
+    height: 30px;
+    top: -176px;
+    left: 79;
+    z-index: 2; }
+  #risa .head .lframe {
+    background: #000;
+    width: 54px;
+    height: 34px;
+    left: 78px;
+    top: -124px;
+    z-index: 1; }
+  #risa .head .tv {
+    position: relative;
+    margin: 20px 0;
+    border-radius: 50% / 10%;
+    color: white;
+    text-align: center;
+    text-indent: .1em; }
+  #risa .head .tv:before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    right: -5%;
+    left: -5%;
+    background: inherit;
+    border-radius: 5% / 50%; }
+  #risa .head .nosey-bar {
+    left: 133px;
+    top: 9px;
+    width: 41px;
+    height: 20px;
+    border-radius: 20px;
+    box-shadow: 0px -3px #000;
+    background-color: transparent; }
+  #risa .head .face {
+    background-color: #ffe8d5;
+    width: 280px;
+    height: 284px;
+    border-radius: 200px;
+    left: 10px;
+    top: 40;
+    box-shadow: inset -10px 0 #fed4b2, inset 6px 0 #FFF6EE; }
+  #risa .head .nosey {
+    width: 25px;
+    height: 32px;
+    background-color: #ffe8d5;
+    top: 214;
+    left: 152;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 50px;
+    box-shadow: inset -4px -2px 0px 0px #fed4b2; }
+  #risa .head .eyeball {
+    z-index: 3;
+    top: 180px; }
+    #risa .head .eyeball.eyeball-left {
+      left: 95px; }
+    #risa .head .eyeball.eyeball-right {
+      left: 195px; }
+    #risa .head .eyeball .eb1,
+    #risa .head .eyeball .eb2,
+    #risa .head .eyeball .eb3,
+    #risa .head .eyeball .eb4,
+    #risa .head .eyeball .eb5,
+    #risa .head .eyeball .eb6 {
+      width: 6px;
+      height: 6px; }
+    #risa .head .eyeball .eb1 {
+      background-color: #FFF; }
+    #risa .head .eyeball .eb2,
+    #risa .head .eyeball .eb3,
+    #risa .head .eyeball .eb4,
+    #risa .head .eyeball .eb5 {
+      background-color: #C8B094; }
+    #risa .head .eyeball .eb2 {
+      left: 6; }
+    #risa .head .eyeball .eb3 {
+      top: 6; }
+    #risa .head .eyeball .eb4 {
+      left: 12;
+      top: 6; }
+    #risa .head .eyeball .eb5 {
+      left: 6;
+      top: 12; }
+    #risa .head .eyeball .eb6 {
+      background-color: #000;
+      left: 6;
+      top: 6; }
+  #risa .shirt {
+    width: 120px;
+    height: 50px;
+    left: 90px;
+    top: 309px;
+    background-color: #15A87B;
+    box-shadow: inset -8px 0 #0E7E5C, inset 4px 0 #6EC7AB; }
+  #risa .shorts {
+    width: 110px;
+    height: 30px;
+    left: 95px;
+    top: 359px;
+    background-color: #A3A3B3;
+    box-shadow: inset -8px 0 #838399, inset 4px 0 #C7C7CA; }
+
+/*# sourceMappingURL=risa.css.map */
